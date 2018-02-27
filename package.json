@@ -1,0 +1,25 @@
+{
+  "name": "grant-just",
+  "version": "0.0.0",
+  "repository": "kthjm/grant-just",
+  "author": "kthjm <toxictoxer@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "scripts": {
+    "start": "node -r dotenv/config test.js"
+  },
+  "dependencies": {
+    "grant-koa": "^3.8.2",
+    "koa": "^2.5.0",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "opn": "^5.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
